@@ -17,6 +17,7 @@ The purpose of this portfolio is to showcase practical, real-world competencies 
 | :--- | :--- | :--- | :---: | :--- | :---: |
 | **INC8539798** | `Security > Ransomware` | **Suspected Ransomware on Shared `S:\` Drive**<br>Encrypted `.lckd` files and ransom notes on department file share | `P2 High` | • Rapid Network Isolation<br>• Evidence Preservation<br>• User De-escalation & Empathy<br>• Tier 2 / SecOps Escalation | [**View Case Study ➡️**](tickets/002-ransomware-on-shared-drive/README.md) |
 | **INC6272241** | `Mobile Devices > SlatePad Wi-Fi` | **Managed Tablet Joined to Guest Wi-Fi (App Offline)**<br>Inventory Scan app offline while public internet browsed | `P3 Moderate` | • Network Segmentation (Guest vs Corp)<br>• MDM & 802.1X Certificate Verification<br>• Remote Device Assistance<br>• User Pacing & Proactive Guidance | [**View Case Study ➡️**](tickets/003-wifi-connectivity/README.md) |
+| **INC8522084** | `Network > VPN` | **VPN Connected but Internal File Share Unreachable**<br>`\\NL-FS-02\Projects` timed out while email and HR portal worked | `P2 High` | • VPN Gateway & Route Analysis<br>• DNS / Path Diagnostics (`nslookup`, `tracert`)<br>• Hypothesis-Driven Troubleshooting<br>• Side-Effect Verification | [**View Case Study ➡️**](tickets/004-vpn-internal-issue/README.md) |
 | *Upcoming* | `Hardware / Peripherals` | *Laptop Touchpad & Input Troubleshooting* | `P3 Normal` | • Hardware Diagnostics<br>• Driver Reinstallation<br>• Device Manager Triage | *In Progress* |
 | *Upcoming* | `Identity & Access` | *Active Directory Password Reset & Account Lockout* | `P3 Normal` | • Identity Verification<br>• AD Domain Services<br>• Access Management | *Queued* |
 
@@ -30,6 +31,8 @@ The purpose of this portfolio is to showcase practical, real-world competencies 
 - **Mobile Device Management (MDM):** Inspecting managed profile compliance, supervised device states, and 802.1X EAP-TLS identity certificates without destructive resets.
 - **Cybersecurity Fundamentals:** Recognizing Indicators of Compromise (IoCs), ransomware signatures, phishing attempts, and maintaining strict containment procedures without altering forensic evidence.
 - **Enterprise Network & Sharing:** Diagnosing shared network drive (`SMB/CIFS`) issues, mapped drives, and IP subnet scoping.
+- **VPN Troubleshooting:** Comparing a server's resolved IP against each VPN gateway's routed networks to find path problems, and telling timeouts (path) apart from "access denied" (permissions).
+- **Command-Line Diagnostics:** `ipconfig /all`, `nslookup`, `Test-NetConnection -Port`, and `tracert` to check DNS, port reachability, and the network path.
 - **Operating Systems & Hardware:** Troubleshooting Windows workstations, SlatePads/tablets, peripherals, and device management.
 
 ### 2. Service Desk Tools & Operations
@@ -52,7 +55,8 @@ The tickets in this repository are performed within the **SysDesk** enterprise i
 
 ```text
 Enterprise Domain: northline.corp
-├── Network Services: File Servers, Shared Drives (S:\), Active Directory, DNS/DHCP, SSIDs (Corp / Guest)
+├── Network Services: File Servers, Shared Drives (S:\), Active Directory, DNS/DHCP, SSIDs (Corp / Guest),
+│                     Site VPN Gateways (Austin HQ, Distribution Center, Core Datacenter)
 ├── Departmental Segments: Operations, Logistics, Sales, IT Support, Security Operations (SecOps)
 ├── Endpoints: Deltatek Workstations, Orchard SlatePads (Tablets), Corporate Laptops, Mobile Devices
 └── Support Hierarchy:
@@ -71,9 +75,12 @@ Helpdesk-Lab-Project-SysDesk-/
     ├── 002-ransomware-on-shared-drive/        # Ticket INC8539798 Case Study
     │   ├── README.md                          # Detailed Case Study & Technical Analysis
     │   └── screenshots/                       # Step-by-step visual proofs (01 - 06)
-    └── 003-wifi-connectivity/                 # Ticket INC6272241 Case Study
+    ├── 003-wifi-connectivity/                 # Ticket INC6272241 Case Study
+    │   ├── README.md                          # Detailed Case Study & Technical Analysis
+    │   └── screenshots/                       # Step-by-step visual proofs (01 - 10)
+    └── 004-vpn-internal-issue/                # Ticket INC8522084 Case Study
         ├── README.md                          # Detailed Case Study & Technical Analysis
-        └── screenshots/                       # Step-by-step visual proofs (01 - 10)
+        └── screenshots/                       # Step-by-step visual proofs (01 - 12)
 ```
 
 ---
