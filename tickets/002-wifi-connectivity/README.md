@@ -1,4 +1,4 @@
-# Ticket 003: Managed Tablet Joined to Guest Wi-Fi, Company App Offline
+# Ticket 002: Managed Tablet Joined to Guest Wi-Fi, Company App Offline
 
 ![Ticket Status](https://img.shields.io/badge/Status-Solved%20(Permanently)-2ea44f?style=for-the-badge)
 ![Priority](https://img.shields.io/badge/Priority-P3%20Moderate-yellow?style=for-the-badge)

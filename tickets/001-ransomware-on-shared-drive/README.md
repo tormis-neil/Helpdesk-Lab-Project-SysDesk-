@@ -1,4 +1,4 @@
-# Ticket 002: Suspected Ransomware on a Shared Drive (Incident Response & Escalation)
+# Ticket 001: Suspected Ransomware on a Shared Drive (Incident Response & Escalation)
 
 ![Ticket Status](https://img.shields.io/badge/Status-Escalated%20to%20Security%20(Completed)-2ea44f?style=for-the-badge)
 ![Priority](https://img.shields.io/badge/Priority-P2%20High-critical?style=for-the-badge)

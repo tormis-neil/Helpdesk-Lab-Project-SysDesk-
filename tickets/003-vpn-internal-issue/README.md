@@ -1,4 +1,4 @@
-# Ticket 004: VPN Connected but Internal File Share Unreachable
+# Ticket 003: VPN Connected but Internal File Share Unreachable
 
 ![Ticket Status](https://img.shields.io/badge/Status-Solved%20(Permanently)-2ea44f?style=for-the-badge)
 ![Priority](https://img.shields.io/badge/Priority-P2%20High-critical?style=for-the-badge)
@@ -188,3 +188,4 @@ Austin HQ if other services have trouble.
 5. A command result can mislead, especially right after a change. The user's real result is the final test.
 6. Check for side effects after a fix, such as whether other services still work.
 7. If you don't know why something happened, say so.
+

@@ -15,9 +15,9 @@ The purpose of this portfolio is to showcase practical, real-world competencies 
 
 | Ticket ID | Category | Issue Summary | Priority | Key Skills Demonstrated | Status / Link |
 | :--- | :--- | :--- | :---: | :--- | :---: |
-| **INC8539798** | `Security > Ransomware` | **Suspected Ransomware on Shared `S:\` Drive**<br>Encrypted `.lckd` files and ransom notes on department file share | `P2 High` | • Rapid Network Isolation<br>• Evidence Preservation<br>• User De-escalation & Empathy<br>• Tier 2 / SecOps Escalation | [**View Case Study ➡️**](tickets/002-ransomware-on-shared-drive/README.md) |
-| **INC6272241** | `Mobile Devices > SlatePad Wi-Fi` | **Managed Tablet Joined to Guest Wi-Fi (App Offline)**<br>Inventory Scan app offline while public internet browsed | `P3 Moderate` | • Network Segmentation (Guest vs Corp)<br>• MDM & 802.1X Certificate Verification<br>• Remote Device Assistance<br>• User Pacing & Proactive Guidance | [**View Case Study ➡️**](tickets/003-wifi-connectivity/README.md) |
-| **INC8522084** | `Network > VPN` | **VPN Connected but Internal File Share Unreachable**<br>`\\NL-FS-02\Projects` timed out while email and HR portal worked | `P2 High` | • VPN Gateway & Route Analysis<br>• DNS / Path Diagnostics (`nslookup`, `tracert`)<br>• Hypothesis-Driven Troubleshooting<br>• Side-Effect Verification | [**View Case Study ➡️**](tickets/004-vpn-internal-issue/README.md) |
+| **INC8539798** | `Security > Ransomware` | **Suspected Ransomware on Shared `S:\` Drive**<br>Encrypted `.lckd` files and ransom notes on department file share | `P2 High` | • Rapid Network Isolation<br>• Evidence Preservation<br>• User De-escalation & Empathy<br>• Tier 2 / SecOps Escalation | [**View Case Study ➡️**](tickets/001-ransomware-on-shared-drive/README.md) |
+| **INC6272241** | `Mobile Devices > SlatePad Wi-Fi` | **Managed Tablet Joined to Guest Wi-Fi (App Offline)**<br>Inventory Scan app offline while public internet browsed | `P3 Moderate` | • Network Segmentation (Guest vs Corp)<br>• MDM & 802.1X Certificate Verification<br>• Remote Device Assistance<br>• User Pacing & Proactive Guidance | [**View Case Study ➡️**](tickets/002-wifi-connectivity/README.md) |
+| **INC8522084** | `Network > VPN` | **VPN Connected but Internal File Share Unreachable**<br>`\\NL-FS-02\Projects` timed out while email and HR portal worked | `P2 High` | • VPN Gateway & Route Analysis<br>• DNS / Path Diagnostics (`nslookup`, `tracert`)<br>• Hypothesis-Driven Troubleshooting<br>• Side-Effect Verification | [**View Case Study ➡️**](tickets/003-vpn-internal-issue/README.md) |
 | *Upcoming* | `Hardware / Peripherals` | *Laptop Touchpad & Input Troubleshooting* | `P3 Normal` | • Hardware Diagnostics<br>• Driver Reinstallation<br>• Device Manager Triage | *In Progress* |
 | *Upcoming* | `Identity & Access` | *Active Directory Password Reset & Account Lockout* | `P3 Normal` | • Identity Verification<br>• AD Domain Services<br>• Access Management | *Queued* |
 
@@ -72,13 +72,13 @@ Enterprise Domain: northline.corp
 Helpdesk-Lab-Project-SysDesk-/
 ├── README.md                                  # Portfolio Landing Page & Ticket Catalog
 └── tickets/
-    ├── 002-ransomware-on-shared-drive/        # Ticket INC8539798 Case Study
+    ├── 001-ransomware-on-shared-drive/        # Ticket INC8539798 Case Study
     │   ├── README.md                          # Detailed Case Study & Technical Analysis
     │   └── screenshots/                       # Step-by-step visual proofs (01 - 06)
-    ├── 003-wifi-connectivity/                 # Ticket INC6272241 Case Study
+    ├── 002-wifi-connectivity/                 # Ticket INC6272241 Case Study
     │   ├── README.md                          # Detailed Case Study & Technical Analysis
     │   └── screenshots/                       # Step-by-step visual proofs (01 - 10)
-    └── 004-vpn-internal-issue/                # Ticket INC8522084 Case Study
+    └── 003-vpn-internal-issue/                # Ticket INC8522084 Case Study
         ├── README.md                          # Detailed Case Study & Technical Analysis
         └── screenshots/                       # Step-by-step visual proofs (01 - 12)
 ```
