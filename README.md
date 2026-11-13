@@ -19,6 +19,7 @@ The purpose of this portfolio is to showcase practical, real-world competencies 
 | **INC6272241** | `Mobile Devices > SlatePad Wi-Fi` | **Managed Tablet Joined to Guest Wi-Fi (App Offline)**<br>Inventory Scan app offline while public internet browsed | `P3 Moderate` | • Network Segmentation (Guest vs Corp)<br>• MDM & 802.1X Certificate Verification<br>• Remote Device Assistance<br>• User Pacing & Proactive Guidance | [**View Case Study ➡️**](tickets/002-wifi-connectivity/README.md) |
 | **INC8522084** | `Network > VPN` | **VPN Connected but Internal File Share Unreachable**<br>`\\NL-FS-02\Projects` timed out while email and HR portal worked | `P2 High` | • VPN Gateway & Route Analysis<br>• DNS / Path Diagnostics (`nslookup`, `tracert`)<br>• Hypothesis-Driven Troubleshooting<br>• Side-Effect Verification | [**View Case Study ➡️**](tickets/003-vpn-internal-issue/README.md) |
 | **INC9233520** | `Access > Monitoring request` | **Manager Requests Team Member's Browsing History**<br>Unauthorized employee monitoring inquiry with request for secrecy | `P3 Moderate` | • Data Privacy & Ethics Enforcement<br>• Role & Authority Verification<br>• Policy-Based Escalation (HR)<br>• Boundary Defense & De-escalation | [**View Case Study ➡️**](tickets/004-identity-monitoring-request/README.md) |
+| **INC9207926** | `Software > Windows Update` | **Machine Hasn't Updated in Months (Failing Compliance)**<br>Error `0x800f0922` caused by disconnected VPN Kill Switch | `P3 Moderate` | • Endpoint Patch Management<br>• Windows Update Error Triage (`0x800f0922`)<br>• VPN Kill Switch & Network Security<br>• Full Verification to "Up to Date" | [**View Case Study ➡️**](tickets/005-machine-update/README.md) |
 
 ---
 
@@ -30,7 +31,8 @@ The purpose of this portfolio is to showcase practical, real-world competencies 
 - **Mobile Device Management (MDM):** Inspecting managed profile compliance, supervised device states, and 802.1X EAP-TLS identity certificates without destructive resets.
 - **Cybersecurity Fundamentals:** Recognizing Indicators of Compromise (IoCs), ransomware signatures, phishing attempts, and maintaining strict containment procedures without altering forensic evidence.
 - **Enterprise Network & Sharing:** Diagnosing shared network drive (`SMB/CIFS`) issues, mapped drives, and IP subnet scoping.
-- **VPN Troubleshooting:** Comparing a server's resolved IP against each VPN gateway's routed networks to find path problems, and telling timeouts (path) apart from "access denied" (permissions).
+- **VPN Troubleshooting & Security:** Comparing a server's resolved IP against each VPN gateway's routed networks, and identifying client security controls (VPN Kill Switch) causing update and internet isolation.
+- **Endpoint Patch Management:** Diagnosing Windows Update error codes (`0x800f0922`), resolving update queue stalls, restoring patch compliance, and verifying end-to-end installation states.
 - **Command-Line Diagnostics:** `ipconfig /all`, `nslookup`, `Test-NetConnection -Port`, and `tracert` to check DNS, port reachability, and the network path.
 - **Data Privacy & Governance:** Enforcing acceptable use and surveillance boundaries, protecting personally identifiable information (PII), and verifying authorization before releasing user activity records.
 - **Operating Systems & Hardware:** Troubleshooting Windows workstations, SlatePads/tablets, peripherals, and device management.
@@ -81,9 +83,12 @@ Helpdesk-Lab-Project-SysDesk-/
     ├── 003-vpn-internal-issue/                # Ticket INC8522084 Case Study
     │   ├── README.md                          # Detailed Case Study & Technical Analysis
     │   └── screenshots/                       # Step-by-step visual proofs (01 - 12)
-    └── 004-identity-monitoring-request/       # Ticket INC9233520 Case Study
+    ├── 004-identity-monitoring-request/       # Ticket INC9233520 Case Study
+    │   ├── README.md                          # Detailed Case Study & Technical Analysis
+    │   └── screenshots/                       # Step-by-step visual proofs (01 - 05)
+    └── 005-machine-update/                    # Ticket INC9207926 Case Study
         ├── README.md                          # Detailed Case Study & Technical Analysis
-        └── screenshots/                       # Step-by-step visual proofs (01 - 05)
+        └── screenshots/                       # Step-by-step visual proofs (01 - 11)
 ```
 
 ---

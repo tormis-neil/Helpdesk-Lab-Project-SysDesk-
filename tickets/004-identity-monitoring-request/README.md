@@ -173,3 +173,4 @@ Elena accepted the referral and asked who she should follow up with to ensure th
 2. **"Just Looking" is an Infraction:** Looking at user logs without authorization violates security policy, even if the technician never shares what they saw.
 3. **Confidentiality vs. Secrecy:** Legitimate business matters are kept *confidential* within authorized business units; *secrecy* implies hiding actions from compliance and oversight.
 4. **A Warm Handoff Protects Everyone:** Documenting exact facts—who asked, what was requested, and stating clearly that no data was accessed—protects the technician, respects the requester, and gives HR clean context to investigate appropriately.
+
